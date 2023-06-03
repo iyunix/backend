@@ -8,10 +8,10 @@ app = Flask(__name__)
 
 # create a connection to the MySQL database
 config = {
-    'user': 'your_username',
-    'password': 'your_password',
-    'host': 'your_host',
-    'database': 'your_database',
+    'user': 'i_yunu3',
+    'password': 'A.g.0720831717',
+    'host': 'localhost',
+    'database': 'mydb',
 }
 cnx = mysql.connector.connect(**config)
 
